@@ -12,24 +12,38 @@ public class Student {
         this.semester = semester;
     }
 
-    public String getFacultyName() {
-      return faculty.getName();
-    }
-
-    public void setStudentName(String name) {
-        person.setName(name);
-    }
-
-    public String getStudentName() {
+    @Override
+    public String getName() {
         return person.getName();
     }
 
-    public void setStudentSurname(String surname) {
+    @Override
+    public void setName(String name) {
+        person.setName(name);
+    }
+
+    @Override
+    public void setSurname(String surname) {
         person.setSurname(surname);
     }
 
-    public String getStudentSurname() {
+    @Override
+    public String getSurname() {
         return person.getSurname();
+    }
+
+    @Override
+    public Long getPesel(){
+        return person.getPesel();
+    }
+
+    @Override
+    public void setPesel(Long pesel) {
+        person.setPesel(pesel);
+    }
+
+    public String getFacultyName() {
+        return faculty.getName();
     }
 
     public String getFacultyAddress() {

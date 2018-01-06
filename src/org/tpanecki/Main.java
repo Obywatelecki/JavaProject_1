@@ -1,10 +1,9 @@
 package org.tpanecki;
 
 import org.tpanecki.homework.homework02.Faculty;
+import org.tpanecki.homework.homework02.IPerson;
 import org.tpanecki.homework.homework02.Student;
 import org.tpanecki.homework.homework02.Person;
-
-import java.util.List;
 
 public class Main {
 
@@ -20,17 +19,22 @@ public class Main {
         Student s1 = new Student(p1, f2, 4);
         Student s2 = new Student(p2, f1, 24);
         Student s3 = new Student(p3, f2, 1);
+        Student s4 = new Student(new Person("Wojciech", "Wacławik", 824235L), new Faculty("IT", "Ulica 1", "IT1"), 1);
 
-        Student[] students = {s1, s2, s3};
+        Student[] students = {s1, s2, s3, s4};
 
         for (Student i : students) {
-            System.out.println(i.getStudentName() + " " + i.getStudentSurname() + ", " + i.getFacultyName() + ", semester: " + i.getSemester());
+            System.out.println(i.getName() + " " + i.getSurname() + ", " + i.getFacultyName() + ", semester: " + i.getSemester());
         }
 
-        s1.setStudentName("Tomasz");
-        s1.setStudentSurname("Panecki");
+        s1.setName("Tomasz");
+        s1.setSurname("Panecki");
 
-        System.out.println("Student: " + s1.getStudentName() + " " + s1.getStudentSurname());
+        System.out.println("Student: " + s1.getName() + " " + s1.getSurname());
         System.out.println("Person: " + p1.getName() + " " + p1.getSurname());
+
+        // System.out.println(s4.getPerson().getName()); // --> odwołowanie się do metody klasy Person
+        System.out.println(s4.getName()); // --> tzw. delegacja
+
     }
 }
