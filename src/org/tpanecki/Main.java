@@ -4,6 +4,8 @@ import org.tpanecki.homework.homework02.Faculty;
 import org.tpanecki.homework.homework02.Student;
 import org.tpanecki.homework.homework02.Person;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,7 +20,6 @@ public class Main {
         Student s1 = new Student(p1, f2, 4);
         Student s2 = new Student(p2, f1, 24);
         Student s3 = new Student(p3, f2, 1);
-
 
         Student[] students = {s1, s2, s3};
 
