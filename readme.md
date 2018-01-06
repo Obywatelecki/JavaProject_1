@@ -32,3 +32,12 @@ __*italic'o'bold*__
 
 ![Obrazek](https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg)
 
+##### Sample Code
+``` JAVA
+public Student(Person person, Faculty faculty, Integer semester) {
+        this.person = person;
+        this.faculty = faculty;
+        this.semester = semester;
+    }
+```
+
