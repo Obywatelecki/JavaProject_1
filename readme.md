@@ -28,7 +28,7 @@ __*italic'o'bold*__
 |test ||test
 |test|test
 
-**Jest taka fajna strona: [Google](www.google.pl)**
+**Jest taka fajna strona: [Google](http//google.pl)**
 
 ![Obrazek](https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg)
 
