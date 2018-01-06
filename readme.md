@@ -1,6 +1,6 @@
-#Notatki
+#Notatki 
 To są moje notatki
-##Markdown
+##Markdown 
 Moje notatki dalej  
 To jest **bardzo** ważne
 + jeden  
