@@ -28,7 +28,7 @@ __*italic'o'bold*__
 |test ||test
 |test|test
 
-**Jest taka fajna strona: [Google](http//google.pl)**
+**Jest taka fajna strona: [Google](http//google.com)**
 
 ![Obrazek](https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg)
 
@@ -41,3 +41,6 @@ public Student(Person person, Faculty faculty, Integer semester) {
     }
 ```
 
+**Klasa `Person` jest ważna** bo jest
+
+@Abymaly
