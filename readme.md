@@ -1,5 +1,5 @@
 # Notatki 
-To są moje notatki
+Jaka dokumentacja, taki program...
 ## Markdown 
 Moje notatki dalej  
 To jest **bardzo** ważne
