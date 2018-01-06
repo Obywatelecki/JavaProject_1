@@ -16,3 +16,11 @@ To jest **bardzo** ważne
 + trzy
 
 __*italic'o'bold*__
+
+public Student(Person person, Faculty faculty, Integer semester) {
+        this.person = person;
+        this.faculty = faculty;
+        this.semester = semester;
+    }
+    
+  
