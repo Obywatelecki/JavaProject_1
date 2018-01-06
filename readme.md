@@ -30,3 +30,5 @@ __*italic'o'bold*__
 
 **Jest taka fajna strona: [Google](www.google.pl)**
 
+![Obrazek](https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg)
+
