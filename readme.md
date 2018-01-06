@@ -17,10 +17,6 @@ To jest **bardzo** ważne
 
 __*italic'o'bold*__
 
-public Student(Person person, Faculty faculty, Integer semester) {
-        this.person = person;
-        this.faculty = faculty;
-        this.semester = semester;
-    }
-    
-  
+> Jb pisał: że nie wie jak się coś robi  
+
+
