@@ -8,11 +8,14 @@ public class Student implements IStudent{
         this.semester = semester;
     }
 
+    @Override
     public Integer getSemester() {
         return semester;
     }
 
+    @Override
     public void setSemester(Integer semester) {
         this.semester = semester;
     }
+
 }

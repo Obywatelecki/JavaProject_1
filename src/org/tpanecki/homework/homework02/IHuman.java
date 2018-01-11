@@ -1,6 +1,6 @@
 package org.tpanecki.homework.homework02;
 
-public interface IPerson {
+public interface IHuman {
     String getName();
     String getSurname();
     Long getPesel();

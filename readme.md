@@ -41,6 +41,6 @@ public Student(Person person, Faculty faculty, Integer semester) {
     }
 ```
 
-**Klasa `Person` jest ważna** bo jest
+**Klasa `Human` jest ważna** bo jest
 
 @Abymaly
