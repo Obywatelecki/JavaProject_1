@@ -1,46 +1,21 @@
 package org.tpanecki.homework.homework02;
 
-public class Student {
+public class Student implements IStudent{
 
-    private Person person;
-    private Faculty faculty;
     private Integer semester;
 
-    public Student(Person person, Faculty faculty, Integer semester) {
-        this.person = person;
-        this.faculty = faculty;
+    public Student(Integer semester) {
         this.semester = semester;
     }
 
-    public String getFacultyName() {
-      return faculty.getName();
-    }
-
-    public void setStudentName(String name) {
-        person.setName(name);
-    }
-
-    public String getStudentName() {
-        return person.getName();
-    }
-
-    public void setStudentSurname(String surname) {
-        person.setSurname(surname);
-    }
-
-    public String getStudentSurname() {
-        return person.getSurname();
-    }
-
-    public String getFacultyAddress() {
-        return faculty.getAddress();
-    }
-
-    public String getFacultyType() {
-        return faculty.getFacultyType();
-    }
-
+    @Override
     public Integer getSemester() {
         return semester;
     }
+
+    @Override
+    public void setSemester(Integer semester) {
+        this.semester = semester;
+    }
+
 }
